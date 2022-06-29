@@ -1,0 +1,55 @@
+.home {
+  height: 100vh;
+  border-radius: 0px 0px 25px 25px;
+  background-image: url("../../public/home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Playfair Display";
+  font-style: normal;
+  .home_information {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .home_information_title {
+      max-width: 90%;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      color: #07484a;
+    }
+    .home_information_description {
+      width: 278px;
+      height: 50px;
+      font-family: "Open Sans";
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: #07484a;
+      margin-top: 30px;
+    }
+    .home_information_button {
+      width: 182px;
+      height: 64px;
+      background: #70908b;
+      border-radius: 10px;
+      border: none;
+      margin-top: 50px;
+      transition: 0.5s;
+      cursor: pointer;
+      //typography
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: #fdfbf8;
+      &:hover {
+        transform: translateY(-10px);
+      }
+    }
+  }
+}
