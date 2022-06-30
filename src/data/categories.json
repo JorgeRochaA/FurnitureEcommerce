@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Bedroom",
+        "path": "../assets/CategoriesCards/bedroom.jpg"
+    },
+    {
+        "title": "Dinning Room",
+        "path": "../assets/CategoriesCards/dinning-room.jpg"
+    },
+    {
+        "title": "Meeting Room",
+        "path": "../assets/CategoriesCards/meeting-room.jpg"
+    },
+    {
+        "title": "Workspace",
+        "path": "../assets/CategoriesCards/workspace.jpg"
+    },
+    {
+        "title": "Living Room",
+        "path": "../assets/CategoriesCards/living-room.jpg"
+    },
+    {
+        "title": "Room Kitchen",
+        "path": "../assets/CategoriesCards/room-kitchen.jpg"
+    },
+    {
+        "title": "Living Space",
+        "path": "../assets/CategoriesCards/living-space.jpg"
+    }
+]
