@@ -38,6 +38,9 @@
       width: 100%;
     }
   }
+  .card_button {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 428px) {
@@ -45,7 +48,33 @@
     width: 382px;
   }
 }
-
+@media screen and (min-width: 820px) {
+  .category_card {
+    .card_button {
+      position: absolute;
+      display: grid;
+      place-items: center;
+      width: 119px;
+      height: 39px;
+      background: #e0eff6;
+      border-radius: 5px;
+      transition: 0.5s;
+      transform: translateY(130px);
+      //typography
+      font-family: "Open Sans";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #07484a;
+      pointer-events: none;
+    }
+    &:hover {
+      .card_button {
+        transform: translateY(45px);
+      }
+    }
+  }
+}
 @media screen and (min-width: 1100px) {
   .category_card {
     .category_card_title {

@@ -7,6 +7,7 @@ function CategoryCard({ title, image }) {
       <div className="category_card_background">
         <img src={image} alt={title} />
       </div>
+      <div className="card_button">Explore</div>
     </div>
   );
 }
