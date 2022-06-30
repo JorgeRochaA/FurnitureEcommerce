@@ -1,7 +1,6 @@
 .home {
-  height: 100vh;
-  border-radius: 0px 0px 25px 25px;
-  background-image: url("../../public/home.png");
+  min-height: 100vh;
+  background-image: url("../assets/home.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 85%;
@@ -11,7 +10,6 @@
   font-family: "Playfair Display";
   font-style: normal;
   .home_information {
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,10 +21,7 @@
       color: #07484a;
     }
     .home_information_description {
-      width: 278px;
-      height: 50px;
       font-family: "Open Sans";
-      font-weight: 400;
       font-size: 18px;
       line-height: 25px;
       color: #07484a;
@@ -49,6 +44,69 @@
       color: #fdfbf8;
       &:hover {
         transform: translateY(-10px);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 385px) {
+  .home {
+    .home_information {
+      .home_information_title {
+        width: 382px;
+      }
+      .home_information_description {
+        width: 278px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 700px) {
+  .home {
+    align-items: flex-start;
+    justify-content: flex-start;
+    .home_information {
+      margin-left: 44px;
+      margin-top: 100px;
+      text-align: left;
+      align-items: flex-start;
+      .home_information_title {
+        width: 588px;
+        height: 123px;
+        font-size: 48px;
+        line-height: 64px;
+      }
+      .home_information_description {
+        width: 539px;
+        height: 33.06px;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 33px;
+        margin-top: 25px;
+      }
+      .home_information_button {
+        font-size: 24px;
+        margin-bottom: 100px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .home {
+    align-items: flex-start;
+    .home_information {
+      margin-left: 120px;
+      margin-top: 97px;
+      .home_information_title {
+        width: 668px;
+        height: 171px;
+        font-size: 64px;
+        line-height: 85px;
+      }
+      .home_information_description {
+        width: 750px;
+        font-size: 32px;
       }
     }
   }
