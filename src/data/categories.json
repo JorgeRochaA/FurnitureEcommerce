@@ -1,30 +1,37 @@
 [
     {
         "title": "Bedroom",
-        "path": "https://i.ibb.co/Tcfx8NR/bedroom.jpg"
+        "path": "https://i.ibb.co/Tcfx8NR/bedroom.jpg",
+        "redirect_path": "/Category/bedroom"
     },
     {
         "title": "Dinning Room",
-        "path": "https://i.ibb.co/GcZvKB7/dinning-room.jpg"
+        "path": "https://i.ibb.co/GcZvKB7/dinning-room.jpg",
+        "redirect_path": "/Category/dinning-room"
     },
     {
         "title": "Meeting Room",
-        "path": "https://i.ibb.co/Srd0VBr/meeting-room.jpg"
+        "path": "https://i.ibb.co/Srd0VBr/meeting-room.jpg",
+        "redirect_path": "/Category/meeting-room"
     },
     {
         "title": "Workspace",
-        "path": "https://i.ibb.co/31mkK7g/workspace.jpg"
+        "path": "https://i.ibb.co/31mkK7g/workspace.jpg",
+        "redirect_path": "/Category/workspace"
     },
     {
         "title": "Living Room",
-        "path": "https://i.ibb.co/H2XxpmQ/living-room.jpg"
+        "path": "https://i.ibb.co/H2XxpmQ/living-room.jpg",
+        "redirect_path": "/Category/living-room"
     },
     {
         "title": "Room Kitchen",
-        "path": "https://i.ibb.co/126dxwN/room-kitchen.jpg"
+        "path": "https://i.ibb.co/126dxwN/room-kitchen.jpg",
+        "redirect_path": "/Category/room-kitchen"
     },
     {
         "title": "Living Space",
-        "path": "https://i.ibb.co/KrnskVR/living-space.jpg"
+        "path": "https://i.ibb.co/KrnskVR/living-space.jpg",
+        "redirect_path": "/Category/living-space"
     }
 ]

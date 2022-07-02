@@ -13,6 +13,7 @@ function CategoriesContainer() {
               key={index}
               title={category.title}
               image={category.path}
+              redirect_path={category.redirect_path}
             />
           );
         })}
