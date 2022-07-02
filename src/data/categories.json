@@ -1,30 +1,30 @@
 [
     {
         "title": "Bedroom",
-        "path": "../assets/CategoriesCards/bedroom.jpg"
+        "path": "https://i.ibb.co/Tcfx8NR/bedroom.jpg"
     },
     {
         "title": "Dinning Room",
-        "path": "../assets/CategoriesCards/dinning-room.jpg"
+        "path": "https://i.ibb.co/GcZvKB7/dinning-room.jpg"
     },
     {
         "title": "Meeting Room",
-        "path": "../assets/CategoriesCards/meeting-room.jpg"
+        "path": "https://i.ibb.co/Srd0VBr/meeting-room.jpg"
     },
     {
         "title": "Workspace",
-        "path": "../assets/CategoriesCards/workspace.jpg"
+        "path": "https://i.ibb.co/31mkK7g/workspace.jpg"
     },
     {
         "title": "Living Room",
-        "path": "../assets/CategoriesCards/living-room.jpg"
+        "path": "https://i.ibb.co/H2XxpmQ/living-room.jpg"
     },
     {
         "title": "Room Kitchen",
-        "path": "../assets/CategoriesCards/room-kitchen.jpg"
+        "path": "https://i.ibb.co/126dxwN/room-kitchen.jpg"
     },
     {
         "title": "Living Space",
-        "path": "../assets/CategoriesCards/living-space.jpg"
+        "path": "https://i.ibb.co/KrnskVR/living-space.jpg"
     }
 ]
