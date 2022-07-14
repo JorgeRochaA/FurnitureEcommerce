@@ -29,14 +29,17 @@
         margin-top: 30px;
       }
       .home_information_button {
-        width: 182px;
         height: 64px;
+        width: 182px;
+        display: grid;
+        place-items: center;
         background: #70908b;
         border-radius: 10px;
         border: none;
         margin-top: 50px;
         transition: 0.5s;
         cursor: pointer;
+        text-decoration: none;
         //typography
         font-family: "Open Sans";
         font-weight: 700;

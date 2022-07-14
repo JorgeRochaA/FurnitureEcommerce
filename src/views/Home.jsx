@@ -12,7 +12,9 @@ function Home() {
           <p className="home_information_description">
             Explore different categories. Find the best deals.
           </p>
-          <button className="home_information_button">Shop Now</button>
+          <a className="home_information_button" href="#explore">
+            Shop Now
+          </a>
         </div>
       </div>
       <CategoriesContainer />
