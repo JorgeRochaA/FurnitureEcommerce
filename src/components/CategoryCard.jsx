@@ -2,11 +2,11 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/CategoryCard.scss";
 
-function CategoryCard({ title, image, redirect_path }) {
+function CategoryCard({ title, image, redirect_path_name }) {
   let navigate = useNavigate();
 
   const redirect = () => {
-    navigate(redirect_path);
+    navigate(`/Category/${redirect_path_name}`);
   };
 
   return (

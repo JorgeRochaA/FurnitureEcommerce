@@ -2,36 +2,36 @@
     {
         "title": "Bedroom",
         "path": "https://i.ibb.co/Tcfx8NR/bedroom.jpg",
-        "redirect_path": "/Category/bedroom"
+        "redirect_path_name": "bedroom"
     },
     {
         "title": "Dinning Room",
         "path": "https://i.ibb.co/GcZvKB7/dinning-room.jpg",
-        "redirect_path": "/Category/dinning-room"
+        "redirect_path_name": "dinning-room"
     },
     {
         "title": "Meeting Room",
         "path": "https://i.ibb.co/Srd0VBr/meeting-room.jpg",
-        "redirect_path": "/Category/meeting-room"
+        "redirect_path_name": "meeting-room"
     },
     {
         "title": "Workspace",
         "path": "https://i.ibb.co/31mkK7g/workspace.jpg",
-        "redirect_path": "/Category/workspace"
+        "redirect_path_name": "workspace"
     },
     {
         "title": "Living Room",
         "path": "https://i.ibb.co/H2XxpmQ/living-room.jpg",
-        "redirect_path": "/Category/living-room"
+        "redirect_path_name": "living-room"
     },
     {
         "title": "Room Kitchen",
         "path": "https://i.ibb.co/126dxwN/room-kitchen.jpg",
-        "redirect_path": "/Category/room-kitchen"
+        "redirect_path_name": "room-kitchen"
     },
     {
         "title": "Living Space",
         "path": "https://i.ibb.co/KrnskVR/living-space.jpg",
-        "redirect_path": "/Category/living-space"
+        "redirect_path_name": "living-space"
     }
 ]

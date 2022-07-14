@@ -13,7 +13,7 @@ function CategoriesContainer() {
               key={index}
               title={category.title}
               image={category.path}
-              redirect_path={category.redirect_path}
+              redirect_path_name={category.redirect_path_name}
             />
           );
         })}
