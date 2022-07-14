@@ -13,7 +13,7 @@ function FurnitureByCategory() {
     if (!found) {
       navigate("/page-not-found");
     }
-  }, [name]);
+  }, [name, navigate]);
 
   return (
     <div className="furniture_by_category">
